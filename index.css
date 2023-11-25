@@ -1,0 +1,13 @@
+table {
+    widt: 600px;
+    /*border-collapse: separate ez az alapértelmezett*/
+    border-collapse: collapse;
+}
+
+tr,
+td{
+    border: 1px solid black;
+}
+
+tr:nth-child(even) {background:#CCC;}
+tr:nth-child(odd) {background-color: grey;}
